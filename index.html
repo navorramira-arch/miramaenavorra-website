@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MySite</div>
+
+        <!-- Hamburger -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="nav-menu">
+            <a href="#home" onclick="toggleMenu()">Home</a>
+            <a href="#info" onclick="toggleMenu()">Info</a>
+            <a href="#contact" onclick="toggleMenu()">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero fade-in">
+        <img src="white.webp" alt="Hero Image">
+        <h1>Your Modern Responsive Website</h1>
+        <p>Sleek. Clean. Beautiful on any device.</p>
+        <a href="#info" class="btn">Get Started</a>
+    </section>
+
+    <section id="info" class="content fade-in">
+        <h2>About This Site</h2>
+        <p>This redesigned website uses glassmorphism, moving animations, and a sliding mobile menu to create a modern and elegant look.</p>
+    </section>
+
+    <section id="contact" class="content fade-in">
+        <h2>Contact Us</h2>
+        <p>Add your contact details here. Fully customizable!</p>
+    </section
